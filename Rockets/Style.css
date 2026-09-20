@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  background-color: white;
+}
+
+.nav-elements {
+  display: flex;
+  gap: 90px;
+  font-size: 20px;
+  margin-right:100px;
+}
+
+.container {
+  padding: 18px;
+  margin-left: 125px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#hero{
+
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/spacex-OHOU-5UVIYQ-unsplash.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:740px;
+   padding-top: 140px;
+   padding-bottom: 140px;
+}
+#hero div{
+padding:130px;
+margin-left: 30px;
+color: white;
+
+}
+#hero h3{
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-weight:normal;
+  line-height: normal;
+  width: 50vw;
+}
+#hero p{
+  font-size: 1.875rem;
+  margin-bottom: 20px;
+  line-height: normal;
+  font-weight: 300px;
+  letter-spacing: 1px;
+}
+#hero button{
+  padding: 10px 50px;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.title-text{
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  font-size: 1.8rem;
+font-weight: bold;
+}
+#cards{
+  display: flex;
+  justify-content: center;
+
+}
+#lego, #nasa{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  margin: -18px;
+  
+}
+#lego{
+  margin-right: 20px;
+  margin-left: -20px;
+}
+#nasa{
+  margin-left: 20px;
+}
+.lego-image img{
+    height:350px;
+width: 500px;
+object-fit: cover;
+}
+.nasa-image img{
+  height:350px;
+width: 500px;
+object-fit: cover;
+}
+ .lego-text{
+   border: 1px solid rgb(128, 128, 128, 0.341);
+  width: 500px;
+  text-align: center;
+  padding: 35px;
+}
+.lego-text> h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.lego-text> p{
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.lego-text button{
+  border: 0px hidden black;
+  background-color: white;
+  color: #814ebf;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.nasa-text{
+  border: 1px solid rgba(128, 128, 128, 0.341);
+  width: 500px;
+  text-align: center;
+  padding: 35px;
+}
+.nasa-text> h2{
+   font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.nasa-text>p{
+    letter-spacing: 1px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.nasa-text button{
+   border: 0px hidden black;
+  background-color: white;
+  color: #814ebf;
+  font-size: 25px;
+  margin-top: 25px;
+}
