@@ -150,3 +150,203 @@ object-fit: cover;
   font-size: 25px;
   margin-top: 25px;
 }
+#landing{
+  width: 90%;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.landing-image img {
+max-width: 55%;
+  max-height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+.landing-text{
+  position: absolute;
+ top: 330px;
+ right: 360px;
+  background-color: #212020;
+  background-image: radial-gradient(circle, #232323 1px, transparent 5px);
+  background-size: 20px 20px;
+  padding: 50px;
+  max-width: 500px;
+  height: auto;
+ 
+  
+}
+.landing-text h3{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  
+}
+.landing-text p{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.landing-text button{
+  padding: 15px 50px;
+  border: none;
+  margin-top: 40px;
+  background-color: white;
+  font-size: 30px;
+}
+#clean{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+    height: 700px;   /*so that the images of clean and gas do not overlap. working in tandem with the margin top of gas */
+  margin-top: 190px;
+  margin-right: 150px;
+ 
+}
+
+.clean-image img {
+max-width: 55%;
+  max-height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  position: absolute;
+  right: 70px;
+  
+}
+.clean-text{
+  position: absolute;
+ top: 360px;
+ left: 250px;
+  background-color: #212020;
+  background-image: radial-gradient(circle, #232323 1px, transparent 5px);
+  background-size: 20px 20px;
+  padding: 50px;
+  max-width: 490px;
+  height: 300;
+ 
+  
+}
+.clean-text h3{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  
+}
+.clean-text p{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.clean-text button{
+  padding: 15px 50px;
+  border: none;
+  margin-top: 40px;
+  background-color: white;
+  font-size: 30px;
+}
+#gas{
+  width: 90%;
+  position: relative;
+ 
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 50px;
+  min-height: 700px;
+}
+
+.gas-image img {
+max-width: 55%;
+  max-height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+.gas-text{
+  position: absolute;
+ top: 330px;
+ right: 360px;
+  background-color: #212020;
+  background-image: radial-gradient(circle, #232323 1px, transparent 5px);
+  background-size: 20px 20px;
+  padding: 50px;
+  max-width: 500px;
+  height: auto;
+ 
+  
+}
+.gas-text h3{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  
+}
+.gas-text p{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.gas-text button{
+  padding: 15px 50px;
+  border: none;
+  margin-top: 40px;
+  background-color: white;
+  font-size: 30px;
+}
+.skynet{
+  margin: 100px 0px;
+  text-align: center;
+}
+.skynet h3{
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.skynet button{
+  padding: 18px 50px;
+  border: none;
+  border-color: #814ebf;
+  background-color: #814ebf;
+color: white;
+font-size: 20px;
+margin-top: 30px;
+}
+.space{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.space h1{
+  max-width:770px ;
+  font-size: 40px;
+  font-style: italic;
+letter-spacing: 1px;
+font-weight: bolder; 
+margin-left: auto;
+margin-right: auto;
+}
+.space h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.end{
+  background-color:#814EBF;
+  padding: 100px;
+}
+.end button{
+  position: relative;
+  right: 0;
+}
